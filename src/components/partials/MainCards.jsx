@@ -6,7 +6,7 @@ const MainCards = ({ data }) => {
     <div className="w-64 rounded h-[60vh] max-lg:w-52  max-lg:h-[50vh] max-md:w-44 max-sm:w-[40vw] max-sm:h-[32vh] max-md:h-[45vh] max-md:px-0  max-md:py-0 py-2 px-3 overflow-hidden border-[1px] border-zinc-700">
       <div className="w-full h-[80%] relative">
         <img
-          className="w-full h-full object-contain rounded"
+          className="w-full h-full rounded"
           src={
             data.poster_path || data.backdrop_path || data.profile_path
               ? `https://image.tmdb.org/t/p/original/${
