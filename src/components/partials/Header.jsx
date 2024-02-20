@@ -24,7 +24,7 @@ const Header = ({ data }) => {
           </p>
           <div className="flex gap-5 font-semibold">
             <h5 className="flex items-center justify-center gap-1 max-md:text-sm">
-              <i className="text-yellow-400 ri-megaphone-fill"></i>
+              <i className="text-yellow-400 ri-megaphone-fill"></i>``
               {data.release_date || data.first_air_date}
             </h5>
             <h5 className="flex items-center justify-center max-md:text-sm gap-1 uppercase">

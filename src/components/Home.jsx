@@ -61,7 +61,7 @@ const Home = () => {
         </div>
         <Header data={trending} />
         <div className="flex items-center justify-between px-4 py-5">
-          <h1 className="capitalize font-bold font-sans max-sm:text-xl max-md:text-2xl text-zinc-500 text-3xl">
+          <h1 className="capitalize font-bold font-sans max-md:text-2xl text-zinc-500 text-3xl">
             Trendings
           </h1>
           <div className="max-sm:hidden">
@@ -76,7 +76,7 @@ const Home = () => {
       </div>
     </div>
   ) : (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-10 h-screen flex items-center justify-center">
       <PacmanLoader
         color="rgba(205, 214, 54, 1)"
         margin={5}
