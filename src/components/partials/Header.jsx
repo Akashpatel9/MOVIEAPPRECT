@@ -34,7 +34,7 @@ const Header = ({ data }) => {
           </div>
 
           <div className="flex items-center justify-center w-fit gap-2 font-bold text-xl max-md:text-sm capitalize">
-            <div className="w-12 h-12 p-5 bg-purple-500 rounded-full max-md:text-sm max-md:w-5 max-md:h-5  flex items-center justify-center">
+            <div className="w-8 h-8 p-5 bg-purple-500 rounded-full max-md:text-sm max-md:w-5 max-md:h-5  flex items-center justify-center">
               <h1 className="text-white font-bold">
                 {
                 (data.vote_average*10).toFixed()
