@@ -76,7 +76,7 @@ const Home = () => {
       </div>
     </div>
   ) : (
-    <div className="w-10 h-screen flex items-center justify-center">
+    <div className="w-screen h-screen flex items-center justify-center">
       <PacmanLoader
         color="rgba(205, 214, 54, 1)"
         margin={5}
