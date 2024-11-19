@@ -157,7 +157,7 @@ const MovieDetails = () => {
       )}
 
       {info.recommendations && (
-        <div className="px-20 mt-16 max-sm:mt-5 flex flex-col gap-5 max-md:px-4 max-sm:gap-1">
+        <div className="px-20 my-16 max-sm:my-5 flex flex-col gap-5 max-md:px-4 max-sm:gap-1">
           <h1 className="text-zinc-200 capitalize font-bold text-4xl max-md:text-2xl max-sm:text-xl">
             recommendations
           </h1>
